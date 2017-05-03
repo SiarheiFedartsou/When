@@ -1,7 +1,9 @@
 PODS:
   - Nimble (5.1.1)
   - Quick (1.0.0)
-  - When (0.1.0)
+  - Result (3.2.1)
+  - When (0.1.0):
+    - Result (~> 3.2.1)
 
 DEPENDENCIES:
   - Nimble (~> 5.1.1)
@@ -15,7 +17,8 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
   Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
-  When: 9497af795060f13e26089bbef3c5157829ff7c88
+  Result: 2453a22e5c5b11c0c3a478736e82cd02f763b781
+  When: bcec23cf4f84a48b4b864f5ee6edb8839b611820
 
 PODFILE CHECKSUM: e681e9a26608a1d17b0e9b2aa1acdd47281054a1
 

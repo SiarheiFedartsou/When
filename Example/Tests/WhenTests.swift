@@ -9,6 +9,7 @@
 import Nimble
 import When
 import XCTest
+import Result
 
 class WhenTests: XCTestCase {
     
@@ -16,6 +17,7 @@ class WhenTests: XCTestCase {
         case fakeError
     }
     
+
     private func successfulJob<T>(_ result: T) -> Job<T> {
         return Job { onSuccess, onFailure in
             let deadlineTime = DispatchTime.now() + .nanoseconds(1)

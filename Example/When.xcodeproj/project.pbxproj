@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2900CFD13B9D7B7543B47D44 /* Pods_When_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 688E8220DACF4A41A2CA9778 /* Pods_When_Tests.framework */; };
 		472C12A71EBA56C800302443 /* WhenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472C12A61EBA56C800302443 /* WhenTests.swift */; };
+		47E19BE51EBA58D2005313E3 /* WrapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E19BE41EBA58D2005313E3 /* WrapTests.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		472C12A61EBA56C800302443 /* WhenTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhenTests.swift; sourceTree = "<group>"; };
+		47E19BE41EBA58D2005313E3 /* WrapTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WrapTests.swift; sourceTree = "<group>"; };
 		4B28F5D984B612A9C75872BB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* When_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = When_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 			children = (
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 				472C12A61EBA56C800302443 /* WhenTests.swift */,
+				47E19BE41EBA58D2005313E3 /* WrapTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -371,6 +374,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				472C12A71EBA56C800302443 /* WhenTests.swift in Sources */,
+				47E19BE51EBA58D2005313E3 /* WrapTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

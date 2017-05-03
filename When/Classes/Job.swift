@@ -15,7 +15,7 @@ public struct Job<T> {
         self.runner = runner
     }
     
-    public func run(onSuccess: @escaping (T) -> Void, onFailure: @escaping (Error) -> Void) {
+    func run(onSuccess: @escaping (T) -> Void, onFailure: @escaping (Error) -> Void) {
         runner(onSuccess, onFailure)
     }
 }
