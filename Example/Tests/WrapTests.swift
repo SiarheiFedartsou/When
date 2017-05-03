@@ -23,7 +23,7 @@ class WrapTests: XCTestCase {
         // given
         func successfulAsyncTask(completionHandler: @escaping (Result<Int, FakeError>) -> Void) {
             let deadlineTime = DispatchTime.now() + .nanoseconds(1)
-            DispatchQueue.global().asyncAfter(deadline: deadlineTime) {
+            DispatchQueue.main.asyncAfter(deadline: deadlineTime) {
                 completionHandler(Result(42))
             }
         }
@@ -50,7 +50,7 @@ class WrapTests: XCTestCase {
         // given
         func successfulAsyncTask(arg: Int, completionHandler: @escaping (Result<Int, FakeError>) -> Void) {
             let deadlineTime = DispatchTime.now() + .nanoseconds(1)
-            DispatchQueue.global().asyncAfter(deadline: deadlineTime) {
+            DispatchQueue.main.asyncAfter(deadline: deadlineTime) {
                 completionHandler(Result(arg))
             }
         }
@@ -77,7 +77,7 @@ class WrapTests: XCTestCase {
         // given
         func successfulAsyncTask(argA: Int, argB: String, completionHandler: @escaping (Result<[String], FakeError>) -> Void) {
             let deadlineTime = DispatchTime.now() + .nanoseconds(1)
-            DispatchQueue.global().asyncAfter(deadline: deadlineTime) {
+            DispatchQueue.main.asyncAfter(deadline: deadlineTime) {
                 completionHandler(Result(Array(repeating: argB, count: argA)))
             }
         }

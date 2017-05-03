@@ -21,7 +21,7 @@ class WhenTests: XCTestCase {
     private func successfulJob<T>(_ result: T) -> Job<T> {
         return Job { onSuccess, onFailure in
             let deadlineTime = DispatchTime.now() + .nanoseconds(1)
-            DispatchQueue.global().asyncAfter(deadline: deadlineTime) {
+            DispatchQueue.main.asyncAfter(deadline: deadlineTime) {
                 onSuccess(result)
             }
         }
@@ -30,7 +30,7 @@ class WhenTests: XCTestCase {
     private func failedJob() -> Job<Int> {
         return Job { onSuccess, onFailure in
             let deadlineTime = DispatchTime.now() + .nanoseconds(1)
-            DispatchQueue.global().asyncAfter(deadline: deadlineTime) {
+            DispatchQueue.main.asyncAfter(deadline: deadlineTime) {
                 onFailure(FakeError.fakeError)
             }
         }
