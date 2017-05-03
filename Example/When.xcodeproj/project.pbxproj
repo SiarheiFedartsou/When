@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		2900CFD13B9D7B7543B47D44 /* Pods_When_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 688E8220DACF4A41A2CA9778 /* Pods_When_Tests.framework */; };
+		472C12A71EBA56C800302443 /* WhenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472C12A61EBA56C800302443 /* WhenTests.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		E79B2D64655A3DD5E6CC2CC2 /* Pods_When_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4825A4E30DA1D0B5A65860A /* Pods_When_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4B28F5D984B612A9C75872BB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		472C12A61EBA56C800302443 /* WhenTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhenTests.swift; sourceTree = "<group>"; };
+		4B28F5D984B612A9C75872BB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* When_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = When_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,14 +39,13 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* When_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = When_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		688E8220DACF4A41A2CA9778 /* Pods_When_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_When_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AE8625C19188D7E4CA2384B /* Pods-When_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-When_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-When_Tests/Pods-When_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6C9276687A44F7C4EA06C845 /* Pods-When_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-When_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-When_Example/Pods-When_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		79EFE98D096EBDD930BD826E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		79EFE98D096EBDD930BD826E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C4825A4E30DA1D0B5A65860A /* Pods_When_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_When_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C52F8AE39A65818A0D7DDF63 /* Pods-When_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-When_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-When_Example/Pods-When_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CE7FAC201B126EEFEA317B48 /* When.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = When.podspec; path = ../When.podspec; sourceTree = "<group>"; };
+		CE7FAC201B126EEFEA317B48 /* When.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = When.podspec; path = ../When.podspec; sourceTree = "<group>"; };
 		D200F0CA512E84EE3D0142BE /* Pods-When_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-When_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-When_Tests/Pods-When_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,8 +124,8 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
+				472C12A61EBA56C800302443 /* WhenTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -370,7 +370,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				472C12A71EBA56C800302443 /* WhenTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,6 +536,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/When_Example.app/When_Example";
 			};
 			name = Debug;
 		};
@@ -552,6 +553,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/When_Example.app/When_Example";
 			};
 			name = Release;
 		};
