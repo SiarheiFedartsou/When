@@ -12,7 +12,7 @@ Lightweight library for waiting for completion of several concurrent tasks.
 Library works with asynchronous operations wrapped to `Job` struct. To wrap your asynchronous task just write:
 ```swift
 func findPerson(byId id: String, completionHandler: @escaping (Result<Person, PersonError>) -> Void) {
-// some asynchronous work
+  // some asynchronous work
 }
 func findPersonJob(id: String) -> Job<Person> {
   return Job { onSuccess, onFailure in
@@ -42,10 +42,10 @@ For cases when your asynchronous method signature is similar to `findPerson(byId
 when(wrap(findPerson(byId:completionHandler:))("personA"), 
      wrap(findPerson(byId:completionHandler:))("personB"), 
      onSuccess: { personA, personB in
-            // do something with `personA` and `personB`
+       // do something with `personA` and `personB`
      }, 
      onError: { error in
-            // handle error
+       // handle error
      })
 ```
 Also you can easily implement your own `wrap` functions. Just see [Wrap.swift](https://github.com/SiarheiFedartsou/When/blob/master/When/Classes/Wrap.swift) for example. Pull requests with new `wrap` functions are welcome!
