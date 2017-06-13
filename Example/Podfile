@@ -1,8 +1,8 @@
 use_frameworks!
 
 target 'When_Example' do
-  pod 'When', :path => '../'
-  
+  pod 'JustWhen', :path => '../'
+
   target 'When_Tests' do
     inherit! :search_paths
 

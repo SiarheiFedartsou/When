@@ -1,25 +1,25 @@
 PODS:
+  - JustWhen (0.1.0):
+    - Result (~> 3.2.1)
   - Nimble (5.1.1)
   - Quick (1.0.0)
-  - Result (3.2.1)
-  - When (0.1.0):
-    - Result (~> 3.2.1)
+  - Result (3.2.3)
 
 DEPENDENCIES:
+  - JustWhen (from `../`)
   - Nimble (~> 5.1.1)
   - Quick (~> 1.0.0)
-  - When (from `../`)
 
 EXTERNAL SOURCES:
-  When:
+  JustWhen:
     :path: ../
 
 SPEC CHECKSUMS:
+  JustWhen: 5bfb5a21684e99310d3db0b0627352aeb58cc22d
   Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
   Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
-  Result: 2453a22e5c5b11c0c3a478736e82cd02f763b781
-  When: bcec23cf4f84a48b4b864f5ee6edb8839b611820
+  Result: 128640a6347e8d2ae48b142556739a2d13f90ce6
 
-PODFILE CHECKSUM: e681e9a26608a1d17b0e9b2aa1acdd47281054a1
+PODFILE CHECKSUM: d758b92994c399c2fc9a11cc39f30315649839f4
 
 COCOAPODS: 1.2.1
