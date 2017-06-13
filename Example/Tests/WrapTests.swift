@@ -9,7 +9,7 @@
 import XCTest
 import Nimble
 import Result
-import When
+import JustWhen
 
 class WrapTests: XCTestCase {
     

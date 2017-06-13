@@ -7,7 +7,7 @@
 //
 
 import Nimble
-import When
+import JustWhen
 import XCTest
 import Result
 
