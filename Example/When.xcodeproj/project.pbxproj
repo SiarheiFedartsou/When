@@ -47,7 +47,7 @@
 		79EFE98D096EBDD930BD826E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C4825A4E30DA1D0B5A65860A /* Pods_When_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_When_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C52F8AE39A65818A0D7DDF63 /* Pods-When_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-When_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-When_Example/Pods-When_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CE7FAC201B126EEFEA317B48 /* When.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = When.podspec; path = ../When.podspec; sourceTree = "<group>"; };
+		CE7FAC201B126EEFEA317B48 /* JustWhen.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JustWhen.podspec; path = ../JustWhen.podspec; sourceTree = "<group>"; };
 		D200F0CA512E84EE3D0142BE /* Pods-When_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-When_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-When_Tests/Pods-When_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -144,7 +144,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				CE7FAC201B126EEFEA317B48 /* When.podspec */,
+				CE7FAC201B126EEFEA317B48 /* JustWhen.podspec */,
 				79EFE98D096EBDD930BD826E /* README.md */,
 				4B28F5D984B612A9C75872BB /* LICENSE */,
 			);

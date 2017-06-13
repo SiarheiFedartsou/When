@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'When'
+  s.name             = 'JustWhen'
   s.version          = '0.1.0'
   s.summary          = 'Lightweight library for waiting for completion of several concurrent tasks.'
 
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-Lightweight library for waiting for completion of several concurrent tasks.
+Lightweight library for waiting for completion of several concurrent tasks. :)
                        DESC
 
   s.homepage         = 'https://github.com/SiarheiFedartsou/When'
