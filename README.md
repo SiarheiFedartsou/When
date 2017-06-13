@@ -39,11 +39,13 @@ Then you can use `when` function to wait for completion of several jobs:
 
 For cases when your asynchronous method signature is similar to `findPerson(byId:completionHandler:)` function above(list of parameters at the beginning, then completionHandler that takes `Result` type) `When` has special function `wrap` which allows easily wrap such methods to jobs:
 ```swift
-when(wrap(findPerson(byId:completionHandler:))("personA"), wrap(findPerson(byId:completionHandler:))("personB"), onSuccess: { personA, personB in
+when(wrap(findPerson(byId:completionHandler:))("personA"), 
+     wrap(findPerson(byId:completionHandler:))("personB"), 
+     onSuccess: { personA, personB in
             // do something with `personA` and `personB`
-        }, onError: { error in
+     }, onError: { error in
             // handle error
-        })
+     })
 ```
 Also you can easily implement your own `wrap` functions. Just see [Wrap.swift](https://github.com/SiarheiFedartsou/When/blob/master/When/Classes/Wrap.swift) for example. Pull requests with new `wrap` functions are welcome!
 ## Requirements
