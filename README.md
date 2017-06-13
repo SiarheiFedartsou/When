@@ -43,7 +43,8 @@ when(wrap(findPerson(byId:completionHandler:))("personA"),
      wrap(findPerson(byId:completionHandler:))("personB"), 
      onSuccess: { personA, personB in
             // do something with `personA` and `personB`
-     }, onError: { error in
+     }, 
+     onError: { error in
             // handle error
      })
 ```
