@@ -11,7 +11,9 @@ Lightweight library for waiting for completion of several concurrent tasks.
 
 Library works with asynchronous operations wrapped to `Job` struct. To wrap your asynchronous task just write:
 ```swift
-func findPerson(byId id: String, completionHandler: @escaping (Result<Person, PersonError>) -> Void) { // ... }
+func findPerson(byId id: String, completionHandler: @escaping (Result<Person, PersonError>) -> Void) {
+// some asynchronous work
+}
 func findPersonJob(id: String) -> Job<Person> {
   return Job { onSuccess, onFailure in
     findPerson(byId: id) { result in
